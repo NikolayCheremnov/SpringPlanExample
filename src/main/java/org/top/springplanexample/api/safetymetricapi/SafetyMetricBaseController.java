@@ -9,7 +9,7 @@ import org.top.springplanexample.service.safetymetric.SafetyMetricValues;
 import java.util.List;
 
 @RestController
-@RequestMapping("api/safety/base/admin")
+@RequestMapping("api/safety/base")
 public class SafetyMetricBaseController {
     private SafetyMetricBaseService service;
 
